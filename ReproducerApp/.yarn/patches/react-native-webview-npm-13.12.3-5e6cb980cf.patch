@@ -1,0 +1,13 @@
+diff --git a/src/NativeRNCWebViewModule.ts b/src/NativeRNCWebViewModule.ts
+index 220d2390fe82ff24d7540f85c01d72b3b0976f3f..a9af5a29ee416d228f20e346b8c528cb2c5fa1b7 100644
+--- a/src/NativeRNCWebViewModule.ts
++++ b/src/NativeRNCWebViewModule.ts
+@@ -6,7 +6,7 @@ export interface Spec extends TurboModule {
+   isFileUploadSupported(): Promise<boolean>;
+   shouldStartLoadWithLockIdentifier(
+     shouldStart: boolean,
+-    lockIdentifier: Double
++    lockIdentifier: [Double]
+   ): void;
+ }
+ 
